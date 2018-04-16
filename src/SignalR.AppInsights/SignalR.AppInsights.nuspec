@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SignalR.AppInsights</id>
+        <title>SignalR Telemetry Module/title>
+        <version>1.0.0</version>
+        <authors>shibayan</authors>
+        <licenseUrl>https://github.com/shibayan/appinsights-signalr-perfcounter/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/shibayan/appinsights-signalr-perfcounter</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Application Insights Telemetry Module for SignalR Performance Counter</description>
+        <tags>aspnet signalr appinsights performance</tags>
+    </metadata>
+    <files>
+        <file src="bin\$configuration$\$id$.dll" target="lib\net46" />
+        <file src="bin\$configuration$\$id$.pdb" target="lib\net46" />
+    </files>
+    <dependencies>
+        <dependency id="Microsoft.AspNet.SignalR.Core" version="2.2.3" />
+        <dependency id="Microsoft.ApplicationInsights" version="2.5.1" />
+    </dependencies>
+</package>
