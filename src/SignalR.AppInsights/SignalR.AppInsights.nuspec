@@ -10,13 +10,13 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Application Insights Telemetry Module for SignalR Performance Counter</description>
         <tags>aspnet signalr appinsights performance</tags>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.SignalR.Core" version="2.2.3" />
+            <dependency id="Microsoft.ApplicationInsights" version="2.5.1" />
+        </dependencies>
     </metadata>
     <files>
         <file src="bin\$configuration$\$id$.dll" target="lib\net46" />
         <file src="bin\$configuration$\$id$.pdb" target="lib\net46" />
     </files>
-    <dependencies>
-        <dependency id="Microsoft.AspNet.SignalR.Core" version="2.2.3" />
-        <dependency id="Microsoft.ApplicationInsights" version="2.5.1" />
-    </dependencies>
 </package>
