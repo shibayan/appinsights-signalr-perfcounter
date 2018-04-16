@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>SignalR.AppInsights</id>
-        <title>SignalR Telemetry Module/title>
+        <title>SignalR Telemetry Module</title>
         <version>1.0.0</version>
         <authors>shibayan</authors>
         <licenseUrl>https://github.com/shibayan/appinsights-signalr-perfcounter/blob/master/LICENSE</licenseUrl>
