@@ -1,1 +1,4 @@
-# appinsights-signalr-perfcounter
+# SignalR.AppInsights
+
+### NuGet
+https://www.nuget.org/packages/SignalR.AppInsights/
